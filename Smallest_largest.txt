@@ -1,0 +1,4 @@
+numbers = [12, 45, 3, 89, 21]
+
+print("Largest:", max(numbers))
+print("Smallest:", min(numbers))
