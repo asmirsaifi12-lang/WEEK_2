@@ -1,0 +1,9 @@
+file = open("sample.txt", "r")
+
+text = file.read()
+
+print("Words:", len(text.split()))
+print("Characters:", len(text))
+print("Lines:", len(text.splitlines()))
+
+file.close()
