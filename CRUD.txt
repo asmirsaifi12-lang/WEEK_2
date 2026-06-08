@@ -1,0 +1,15 @@
+numbers = [10, 20, 30]
+
+# Create
+numbers.append(40)
+
+# Read
+print(numbers)
+
+# Update
+numbers[1] = 25
+
+# Delete
+numbers.remove(30)
+
+print(numbers)
